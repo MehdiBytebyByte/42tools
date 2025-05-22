@@ -9,7 +9,7 @@ if [ -z "$1" ]; then
   echo "Error: No commit message provided."
   echo "Usage: $0 \"Your commit message here\""
   exit 1
-fi
+fi 
 
 git add .
 git commit -m "$1"
